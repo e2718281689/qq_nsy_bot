@@ -5,6 +5,9 @@
 cd napcat
 docker compose up -d
 ```
+进入webui 
+设置ws 客户端 `ws://172.17.0.1:12345/onebot/v11/ws`
+
 
 ### nonebot 部署
 
