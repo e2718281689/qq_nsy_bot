@@ -1,0 +1,14 @@
+version: "3"
+services:
+    napcat:
+        ports:
+            - 3001:3001
+            - 6099:6099
+        container_name: napcat
+        network_mode: bridge
+        restart: always
+        image: mlikiowa/napcat-docker:latest
+        volumes:
+            - ./napcat/config:/app/napcat/config
+            - ./ntqq:/app/.config/QQ
+
