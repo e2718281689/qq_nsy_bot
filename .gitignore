@@ -1,3 +1,5 @@
 napcat/ntqq
 napcat/napcat/
 __pycache__
+.env
+picmap.db
